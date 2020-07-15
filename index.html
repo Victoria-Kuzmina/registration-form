@@ -6,29 +6,78 @@
    <title>Document</title>
    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700|Montserrat:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
    <link rel="stylesheet" href="css.css">
-   <script>
-
-   </script>
+   <script src="js.js" defer></script>
 </head>
 <body>
-   <div class="form">
-      <div>Регистрация</div>
-      <form action="">
-       <div>
-          <input class="input1" type="text" placeholder="Фамилия">
-          <input class="input2" type="text" placeholder="Имя">
-          <input class="input3" type="text" placeholder="Отчество">
-          <input class="input4" type="text" placeholder="ИНН организации / ИПП">
-          <input class="input5" type="text" placeholder="Сфера деятельности">
-          <input class="input6" type="text" placeholder="Email">
-          <input class="input7" type="text" placeholder="Телефон">
-          <input class="input8" type="password" placeholder="Пароль">
-          <input class="input9" type="password" placeholder="Повторите пароль">
-        </div>
-        <div class="button">
-         <p>Зарегистрироваться</p>
-       </div>
-      </form>
-    </div>
+   <div class="d-flex v-center h-center">
+      <div class="form">
+         <button class="form-close">&times;</button>
+         <h3 class="form-title">Регистрация</h3>
+         <form>
+            <div class="col-12 col-md-7">
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Фамилия</div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Имя</div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Отчество</div>
+                  </div>
+               </div>
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">ИНН Организации</div>
+                  </div>
+               </div>
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Сфера деятельности</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-5">
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Email</div>
+                  </div>
+               </div>
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Телефон</div>
+                  </div>
+               </div>
+               
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Пароль</div>
+                  </div>
+               </div>
+               <div class="col-12 mb-3">
+                  <div class="input-group placeholder">
+                     <input type="text" name="test" value="" required />
+                     <div class="placeholder">Повторите пароль</div>
+                  </div>
+               </div>
+            </div>
+            <div class="d-flex h-center">
+               <button class="button">Зарегистрироваться</button>
+            </div>
+         </form>
+      </div>
+   </div>
 </body>
 </html>
