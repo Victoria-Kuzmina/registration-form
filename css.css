@@ -1,0 +1,215 @@
+
+body{
+   background-color: orange;
+}
+.form{
+   position: absolute;
+   width: 940px;
+   height: 560px;
+   background-color: rgb(252, 252, 252);
+   border-radius: 35px;
+
+   
+}
+.form>div{
+position: absolute;
+width: 302px;
+height: 50px;
+left: calc(50% - 302px/2);
+top: 81px;
+
+
+font-family: "Montserrat Alternates";
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.input1{
+position: absolute;
+width: 453px;
+height: 50px;
+left: 60px;
+top: 195px;
+
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 6px;
+
+}
+.input2{
+position: absolute;
+width: 215px;
+height: 50px;
+left: 60px;
+top: 261px;
+
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.input3{
+   position: absolute;
+   width: 226px;
+   height: 50px;
+   left: 287px;
+   top: 261px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.input4{
+   position: absolute;
+   width: 453px;
+   height: 50px;
+   left: 60px;
+   top: 327px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.input5{
+   position: absolute;
+   width: 453px;
+   height: 50px;
+   left: 60px;
+   top: 393px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.input6{
+   position: absolute;
+width: 280px;
+height: 50px;
+left: 563px;
+top: 195px;
+
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.input7{
+   position: absolute;
+   width: 280px;
+   height: 50px;
+   left: 563px;
+   top: 261px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.input8{
+   position: absolute;
+   width: 280px;
+   height: 50px;
+   left: 563px;
+   top: 327px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.input9{
+   position: absolute;
+   width: 280px;
+   height: 50px;
+   left: 563px;
+   top: 393px;
+   
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 6px;
+}
+.form>form>div>input::placeholder{
+   position: absolute;
+   width: 92px;
+   height: 22px;
+   left: 100px;
+   top: 209px;
+   padding-left: 10px;
+
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   /* identical to box height */
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.05em;
+
+   color: rgba(0, 0, 0, 0.4);
+}
+.button{
+display: flex;
+flex-direction: row;
+/* padding: 16px 47px;*/
+
+position: absolute;
+width: 356px;
+height: 56px;
+left: 211px;
+top: 470px;
+
+/* градиент */
+
+background: linear-gradient(156.46deg, rgba(194, 21, 0, 0.8) 21.43%, rgba(226, 114, 0, 0.8) 122.37%, rgba(255, 197, 0, 0.8) 122.38%);
+border-radius: 6px;
+}
+.button:hover{
+display: flex;
+flex-direction: row;
+/* padding: 16px 47px;*/
+
+position: absolute;
+width: 356px;
+height: 56px;
+left: 211px;
+top: 470px;
+
+/* градиент */
+
+background: linear-gradient(156.46deg, rgba(194, 21, 0, 0.8) 21.43%, rgba(226, 114, 0, 0.8) 122.37%, rgba(255, 197, 0, 0.8) 122.38%);
+border-radius: 6px;
+box-shadow: 0px 0px 0px 3px rgba(226, 114, 0, 0.8);
+ }
+.button p{
+   position: static;
+   width: 262px;
+   height: 24px;
+   left: 47px;
+   top: 16px;
+   
+   font-family: Montserrat Alternates;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 0.05em;
+   
+   color: #FFFFFF;
+   
+   
+   /* Inside Auto Layout */
+   
+   flex: none;
+   order: 0;
+   align-self: center;
+   margin-left: 10px;
+}
